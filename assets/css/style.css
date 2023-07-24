@@ -1,0 +1,15 @@
+section{
+    margin-bottom: 2rem;
+}
+
+.debug [class^="col-"]{
+    background-color: #016dfa;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+.debug [class^="col-"] > .row > [class^="col-"]{
+    background-color: #01e164;
+    border: 1px solid #016dfa;
+}
